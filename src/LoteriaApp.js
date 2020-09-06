@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Loteria } from "./Loteria";
 import { Layout } from "antd";
-import html2canvas from "html2canvas";
-import pdfMake from "pdfmake/build/pdfmake";
+//import html2canvas from "html2canvas";
+//import pdfMake from "pdfmake/build/pdfmake";
 
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 
 import "./Loteria.css";
 export const LoteriaApp = () => {
@@ -32,11 +32,6 @@ export const LoteriaApp = () => {
             value={numLoterias}
           />
         </div>
-        <div className="btn-pdf">
-          <Button onClick={printToPdf} variant="danger">
-            Crear PDF
-          </Button>
-        </div>
 
         <Content id="print_to_pdf">
           {num_loterias.map((_, index) => (
@@ -52,17 +47,23 @@ export const LoteriaApp = () => {
   );
 };
 
-const printToPdf = () => {
-  html2canvas(document.getElementById("print_to_pdf")).then((canvas) => {
-    var data = canvas.toDataURL();
-    var pdfExportSetting = {
-      content: [
-        {
-          image: data,
-          width: 650,
-        },
-      ],
-    };
-    pdfMake.createPdf(pdfExportSetting).download("test_file.pdf");
-  });
-};
+//const printToPdf = () => {
+// html2canvas(document.getElementById("print_to_pdf")).then((canvas) => {
+// var data = canvas.toDataURL();
+// var pdfExportSetting = {
+//   content: [
+//     {
+//       image: data,
+//        width: 650,
+//      },
+//    ],
+//  };
+//   pdfMake.createPdf(pdfExportSetting).download("test_file.pdf");
+// });
+//};
+
+//<div className="btn-pdf">
+//<Button onClick={printToPdf} variant="danger">
+// Crear PDF
+//</Button>
+//</div>
