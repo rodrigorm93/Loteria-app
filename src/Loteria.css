@@ -1,0 +1,42 @@
+.card-loteria {
+  background-image: url("https://us.123rf.com/450wm/rangizzz/rangizzz1207/rangizzz120700014/14420663-recicle-el-papel-cart%C3%B3n-textura-con-copia-espacio.jpg?ver=6");
+  width: 65%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-color: black !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  padding: 20px !important;
+}
+
+td {
+  font-size: 4em;
+}
+
+.num_loteria {
+  background-color: lemonchiffon;
+  width: 45%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 20px;
+  border-radius: 15px;
+  border-style: solid;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contend-loteria {
+  background-color: white !important;
+}
+
+.titulo-header {
+  color: white;
+}
+.div-input {
+  padding-left: 20px;
+}
+
+.btn-pdf {
+  padding: 20px;
+}
