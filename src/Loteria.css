@@ -1,6 +1,7 @@
 .card-loteria {
-  background-image: url("https://us.123rf.com/450wm/rangizzz/rangizzz1207/rangizzz120700014/14420663-recicle-el-papel-cart%C3%B3n-textura-con-copia-espacio.jpg?ver=6");
-  width: 65%;
+  background-image: url("https://www.royal-dent.com/fotosup/pdf/onlinepromosenero2016/files/assets/background/background.png");
+  width: 70%;
+  height: 100%;
   margin-left: auto !important;
   margin-right: auto !important;
   border-color: black !important;
@@ -15,7 +16,7 @@ td {
 
 .num_loteria {
   background-color: lemonchiffon;
-  width: 45%;
+  width: 50%;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 20px;

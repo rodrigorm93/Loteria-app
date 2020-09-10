@@ -1,0 +1,38 @@
+.card-num {
+  background-image: url("https://img2.freepng.es/20181108/pfg/kisspng-lottery-mavi-jeans-ball-sphere-5be4d810aa56a7.2874504415417241766977.jpg");
+  background-size: contain;
+  width: 40%;
+  height: 60%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-color: black !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  padding: 20px !important;
+}
+
+.title-number {
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 100px;
+}
+
+.container-num {
+  padding-right: 30px;
+  padding-top: 50px;
+}
+.num_loteria2 {
+  background-color: lemonchiffon;
+  width: 30%;
+  height: 150px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-radius: 15px;
+
+  border-style: solid;
+}
+
+.btn-number {
+  padding-top: 200px;
+  padding-left: 200px;
+}
