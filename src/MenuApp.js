@@ -6,12 +6,7 @@ import { HomeOutlined } from "@ant-design/icons";
 
 export const MenuApp = () => {
   return (
-    <Menu
-      theme="dark"
-      mode="horizontal"
-      defaultSelectedKeys={["1"]}
-      style={{ lineHeight: "64px" }}
-    >
+    <Menu theme="dark" mode="horizontal" style={{ lineHeight: "64px" }}>
       <Menu.Item key="1" icon={<HomeOutlined />}>
         <Link to="/">Generar Loteria</Link>
       </Menu.Item>
