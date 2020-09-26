@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Mini Proyecto para crear cartones de Loteria y tombola de numero aleatorios
+## Mini Proyecto para crear cartones de Loteria y una pequeña tombola que genera números aleatorios
 
 publicado en : https://rodrigorm93.github.io/Loteria-app/
 
